@@ -1,0 +1,19 @@
+# fly.toml app configuration file generated for coe-web-cms on 2023-07-12T11:03:12+02:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = "coe-web-cms"
+primary_region = "scl"
+
+[http_service]
+  internal_port = 1337
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = true
+  min_machines_running = 0
+  processes = ["app"]
+
+[mounts]
+source="uploads"
+destination="/public/uploads"
