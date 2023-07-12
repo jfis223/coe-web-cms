@@ -14,6 +14,11 @@ module.exports = ({ env })=>({
       },
     },
   },
+  'strapi-plugin-populate-deep': {
+    config: {
+      defaultDepth: 10,
+    }
+  },
   'users-permissions': {
     config: {
       jwtSecret: env('JWT_SECRET') || crypto.randomBytes(16).toString('base64'),

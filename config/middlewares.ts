@@ -6,7 +6,15 @@ export default [
         useDefaults: true,
         directives: {
           'connect-src': ["'self'", 'https:'],
-          'img-src': ["'self'", 'data:', 'blob:', 'res.cloudinary.com'],
+          "img-src": [
+            "'self'",
+            "data:",
+            "blob:",
+            "res.cloudinary.com", // cloudinary images
+            "lh3.googleusercontent.com", // google avatars
+            "platform-lookaside.fbsbx.com", // facebook avatars
+            "dl.airtable.com", // strapi marketplace
+          ],
           'media-src': ["'self'", 'data:', 'blob:', 'res.cloudinary.com'],
           upgradeInsecureRequests: null,
         },
@@ -14,7 +22,6 @@ export default [
     },
   },
   'strapi::errors',
-  'strapi::security',
   'strapi::cors',
   'strapi::poweredBy',
   'strapi::logger',
