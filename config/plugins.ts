@@ -19,9 +19,30 @@ module.exports = ({ env })=>({
       defaultDepth: 10,
     }
   },
+  "location-field": {
+    enabled: true,
+    config: {
+      fields: ["photo", "rating"],
+      googleMapsApiKey: env("GOOGLE_MAPS_API_KEY"),
+      autocompletionRequestOptions: {},
+    },
+  },
+  "video-field": {
+    enabled: true
+  },
+  'import-export-entries': {
+    enabled: true,
+    config: {
+    },
+  },
   'users-permissions': {
     config: {
       jwtSecret: env('JWT_SECRET') || crypto.randomBytes(16).toString('base64'),
+    },
+    menus: {
+      config: {
+        maxDepth: 2,
+      },
     },
   },
 });

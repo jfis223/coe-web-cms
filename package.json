@@ -2,7 +2,7 @@
   "name": "coe-web-cms",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "Strapi de la web del Centro Oftalmológico del Este",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -13,11 +13,11 @@
   "dependencies": {
     "@_sh/strapi-plugin-ckeditor": "^2.0.4",
     "@sklinet/strapi-plugin-video-field": "^1.0.5",
-    "@strapi/plugin-color-picker": "^4.11.4",
-    "@strapi/plugin-i18n": "4.11.4",
-    "@strapi/plugin-users-permissions": "4.11.4",
-    "@strapi/provider-upload-cloudinary": "^4.11.4",
-    "@strapi/strapi": "4.11.4",
+    "@strapi/plugin-color-picker": "^4.11.5",
+    "@strapi/plugin-i18n": "4.11.5",
+    "@strapi/plugin-users-permissions": "4.11.5",
+    "@strapi/provider-upload-cloudinary": "^4.11.5",
+    "@strapi/strapi": "4.11.5",
     "better-sqlite3": "8.0.1",
     "pg": "^8.11.1",
     "pg-connection-string": "^2.6.1",
@@ -27,7 +27,7 @@
     "strapi-plugin-populate-deep": "^2.0.0"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Joaquín Fischer"
   },
   "strapi": {
     "uuid": "b52377cd-31a5-4faa-ad1c-8b6fde19b2a7"
