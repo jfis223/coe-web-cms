@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_blocks_contact_links",
+  "info": {
+    "displayName": "Contact Links",
+    "icon": "cursor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "groups": {
+      "type": "component",
+      "repeatable": true,
+      "component": "items.contact-email-group"
+    }
+  }
+}

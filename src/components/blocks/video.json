@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_blocks_videos",
+  "info": {
+    "displayName": "Video",
+    "icon": "attachment"
+  },
+  "options": {},
+  "attributes": {
+    "video": {
+      "type": "customField",
+      "customField": "plugin::video-field.video"
+    }
+  }
+}

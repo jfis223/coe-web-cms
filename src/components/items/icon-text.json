@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_items_icon_texts",
+  "info": {
+    "displayName": "Icon Text",
+    "icon": "grid"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "component",
+      "repeatable": false,
+      "component": "items.image-item"
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

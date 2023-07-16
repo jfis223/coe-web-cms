@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_blocks_full_width_images",
+  "info": {
+    "displayName": "Full Width Image",
+    "icon": "picture"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "items.image-item"
+    }
+  }
+}

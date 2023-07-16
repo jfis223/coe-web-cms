@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_items_accordion_items",
+  "info": {
+    "displayName": "Accordion Item",
+    "icon": "filter"
+  },
+  "options": {},
+  "attributes": {
+    "linkList": {
+      "type": "component",
+      "repeatable": false,
+      "component": "items.link-list"
+    },
+    "content": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "uniqueInUruguay": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "items.image-item"
+    }
+  }
+}

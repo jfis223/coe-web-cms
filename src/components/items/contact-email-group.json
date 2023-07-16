@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_items_contact_email_groups",
+  "info": {
+    "displayName": "Contact Email Group",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "contactItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "items.contact-email"
+    }
+  }
+}

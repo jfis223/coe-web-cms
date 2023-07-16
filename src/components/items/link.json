@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_items_links",
+  "info": {
+    "displayName": "Link",
+    "icon": "cursor"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "showAsButton": {
+      "type": "boolean",
+      "default": false
+    },
+    "targetBlank": {
+      "type": "boolean",
+      "default": false
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
