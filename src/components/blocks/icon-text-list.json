@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_blocks_icon_text_lists",
+  "info": {
+    "displayName": "Icon Text List",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "items.icon-text"
+    }
+  }
+}

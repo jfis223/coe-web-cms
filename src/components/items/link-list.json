@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_blocks_link_lists",
+  "info": {
+    "displayName": "Link List",
+    "icon": "exit",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "items.link"
+    }
+  }
+}

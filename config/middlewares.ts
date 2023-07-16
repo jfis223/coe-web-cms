@@ -10,10 +10,10 @@ export default [
             "'self'",
             "data:",
             "blob:",
-            "res.cloudinary.com", // cloudinary images
-            "lh3.googleusercontent.com", // google avatars
-            "platform-lookaside.fbsbx.com", // facebook avatars
-            "dl.airtable.com", // strapi marketplace
+            "res.cloudinary.com",
+            "lh3.googleusercontent.com",
+            "platform-lookaside.fbsbx.com",
+            "dl.airtable.com",
           ],
           'media-src': ["'self'", 'data:', 'blob:', 'res.cloudinary.com'],
           upgradeInsecureRequests: null,

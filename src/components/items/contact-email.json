@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_items_contact_emails",
+  "info": {
+    "displayName": "Contact Email",
+    "icon": "doctor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}

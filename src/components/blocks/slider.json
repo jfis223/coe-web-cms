@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_blocks_sliders",
+  "info": {
+    "displayName": "Slider",
+    "icon": "briefcase"
+  },
+  "options": {},
+  "attributes": {
+    "slides": {
+      "type": "component",
+      "repeatable": true,
+      "required": true,
+      "min": 1,
+      "component": "items.slider-item"
+    }
+  }
+}
