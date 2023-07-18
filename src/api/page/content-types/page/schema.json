@@ -48,7 +48,8 @@
         "blocks.slider",
         "blocks.team",
         "blocks.text",
-        "blocks.video"
+        "blocks.video",
+        "blocks.gallery"
       ],
       "required": true,
       "min": 1
