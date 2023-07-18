@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_blocks_galleries",
+  "info": {
+    "displayName": "Gallery",
+    "icon": "dashboard"
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "items.image-item",
+      "required": true,
+      "min": 1
+    }
+  }
+}

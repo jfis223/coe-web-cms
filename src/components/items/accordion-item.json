@@ -6,6 +6,10 @@
   },
   "options": {},
   "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
     "linkList": {
       "type": "component",
       "repeatable": false,
