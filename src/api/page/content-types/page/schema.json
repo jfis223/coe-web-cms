@@ -4,7 +4,8 @@
   "info": {
     "singularName": "page",
     "pluralName": "pages",
-    "displayName": "Página"
+    "displayName": "Página",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -49,7 +50,8 @@
         "blocks.team",
         "blocks.text",
         "blocks.video",
-        "blocks.gallery"
+        "blocks.gallery",
+        "blocks.clinics"
       ],
       "required": true,
       "min": 1

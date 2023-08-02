@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_blocks_clinics",
+  "info": {
+    "displayName": "Clinics",
+    "icon": "map",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "showMap": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    }
+  }
+}

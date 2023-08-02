@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_items_video_items",
+  "info": {
+    "displayName": "Video Item with Title",
+    "icon": "picture"
+  },
+  "options": {},
+  "attributes": {
+    "video": {
+      "type": "customField",
+      "customField": "plugin::video-field.video"
+    },
+    "title": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    }
+  }
+}

@@ -12,8 +12,8 @@
     },
     "linkList": {
       "type": "component",
-      "repeatable": false,
-      "component": "items.link-list"
+      "repeatable": true,
+      "component": "items.video-item"
     },
     "content": {
       "type": "customField",
