@@ -10,6 +10,11 @@
       "type": "customField",
       "customField": "plugin::video-field.video"
     },
+    "isMain": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
     "title": {
       "type": "customField",
       "options": {
